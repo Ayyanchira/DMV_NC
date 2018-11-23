@@ -44,39 +44,39 @@ sh3 = book.sheet_by_index(2)
 store = []
 questions = []
 
-for rx in range(1,sh1.nrows):	
-	question = {"Question": sh1.row(rx)[0].value,
-	"option1": sh1.row(rx)[1].value,
-	"option2": sh1.row(rx)[2].value,
-	"option3": sh1.row(rx)[3].value,
-	"option4": sh1.row(rx)[4].value,
-	"correctAnswer": sh1.row(rx)[5].value}
+for rx in range(1,sh1.nrows):
+	question = {"Question": sh2.row(rx)[2].value,
+				"option1": sh2.row(rx)[3].value,
+				"option2": sh2.row(rx)[4].value,
+				"option3": sh2.row(rx)[5].value,
+				"option4": sh2.row(rx)[6].value,
+				"correctAnswer": sh2.row(rx)[7].value}
 	store.append(question)
 
 easy = json.dumps(store, indent=4)
 f.write(easy)
 store = []
 
-for rx in range(1,sh2.nrows):	
-	question = {"Question": sh2.row(rx)[0].value,
-	"option1": sh2.row(rx)[1].value,
-	"option2": sh2.row(rx)[2].value,
-	"option3": sh2.row(rx)[3].value,
-	"option4": sh2.row(rx)[4].value,
-	"correctAnswer": sh2.row(rx)[5].value}
+for rx in range(1,sh2.nrows):
+	question = {"Question": sh2.row(rx)[2].value,
+				"option1": sh2.row(rx)[3].value,
+				"option2": sh2.row(rx)[4].value,
+				"option3": sh2.row(rx)[5].value,
+				"option4": sh2.row(rx)[6].value,
+				"correctAnswer": sh2.row(rx)[7].value}
 	store.append(question)
 
 medium = json.dumps(store, indent=4)
 f.write(medium)
 store = []
 
-for rx in range(1,sh3.nrows):	
-	question = {"Question": sh3.row(rx)[0].value,
-	"option1": sh3.row(rx)[1].value,
-	"option2": sh3.row(rx)[2].value,
-	"option3": sh3.row(rx)[3].value,
-	"option4": sh3.row(rx)[4].value,
-	"correctAnswer": sh3.row(rx)[5].value}
+for rx in range(1,sh3.nrows):
+	question = {"Question": sh2.row(rx)[2].value,
+				"option1": sh2.row(rx)[3].value,
+				"option2": sh2.row(rx)[4].value,
+				"option3": sh2.row(rx)[5].value,
+				"option4": sh2.row(rx)[6].value,
+				"correctAnswer": sh2.row(rx)[7].value}
 	store.append(question)
 
 hard = json.dumps(store, indent=4)

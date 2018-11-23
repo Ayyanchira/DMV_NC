@@ -1,593 +1,175 @@
 [
     {
-        "Question": "",
-        "option1": "Question Number",
-        "option2": "Question",
-        "option3": "Answer 1",
-        "option4": "Answer 2",
-        "correctAnswer": "Answer 3"
+        "Question": "Question",
+        "option1": "Answer 1",
+        "option2": "Answer 2",
+        "option3": "Answer 3",
+        "option4": "Answer 4",
+        "correctAnswer": "Correct Answer"
     },
     {
-        "Question": "",
-        "option1": 1.0,
-        "option2": "To make safe and legal turns, you must signal your turn at least",
-        "option3": "75 feet ahead on city streets and 250 feet ahead on open highways.",
-        "option4": "50 feet ahead on city streets and 200 feet ahead on open highways.",
-        "correctAnswer": "100 feet ahead on city streets and 300 feet ahead on open highways."
+        "Question": "A Flashing Yellow Light means you should",
+        "option1": "Stop and Proceed when the way is clear",
+        "option2": "Slow down and proceed with care",
+        "option3": "Continue throught if the way is clear",
+        "option4": "Stop and proceed when a green light appears",
+        "correctAnswer": 2.0
     },
     {
-        "Question": "",
-        "option1": 2.0,
-        "option2": "At night, slow down and always:",
-        "option3": "Use your dome light to help you see your speedometer",
-        "option4": "Use your high beams until other drivers dim their light",
-        "correctAnswer": "Use high beams whenever there are no oncoming vehicles"
+        "Question": "If you are driving behind a motorycycle, you must",
+        "option1": "Allow the motor cycle to use complete lane",
+        "option2": "Allow the motor cycle to use only half of the lane",
+        "option3": "Drive on the Shoulder beside the motorcycle",
+        "option4": "Pass in the same lane where the motor cycle is driving",
+        "correctAnswer": 1.0
     },
     {
-        "Question": "",
-        "option1": 3.0,
-        "option2": "A Road Sign with a black plus mark in a yellow bacground means",
-        "option3": "A steep grade is ahead",
-        "option4": "you must turn left ahead",
-        "correctAnswer": "a four-way intersection is ahead"
+        "Question": "When driving in traffic, it is safest to",
+        "option1": "Drive with the flow of traffic",
+        "option2": "Drive fast than the flow",
+        "option3": "Drive slower than the flow",
+        "option4": "Fluctuate your speed",
+        "correctAnswer": 1.0
     },
     {
-        "Question": "",
-        "option1": 4.0,
-        "option2": "Which of the following does not happen after drinking",
-        "option3": "Your judgement of speed and distance is distorted",
-        "option4": "You are less alert",
-        "correctAnswer": "Your reflexes and reaction time slowdown"
+        "Question": "Double Solid yellow lines painted down the middle of the road mean",
+        "option1": "Railroad crossing ahead",
+        "option2": "Passing is permitted in either direction",
+        "option3": "Pedestrian crossing ahead",
+        "option4": "Passing is not permitted in either direction",
+        "correctAnswer": 4.0
     },
     {
-        "Question": "",
-        "option1": 5.0,
-        "option2": "Alcohol causes",
-        "option3": "Loss of concentration",
-        "option4": "Slower judgement",
-        "correctAnswer": "all of the above"
+        "Question": "When stopped by a police offer you should",
+        "option1": "Get of of the car",
+        "option2": "unbucle your seat belt and lower your window",
+        "option3": "stay in your vehicle with your hands on the steering wheel and wait",
+        "option4": "Get your paperwork ready before the office reaches",
+        "correctAnswer": 3.0
     },
     {
-        "Question": "",
-        "option1": 6.0,
-        "option2": "When the driver behind you wants to pass, you should",
-        "option3": "Change Lanes",
-        "option4": "Go the same speed",
-        "correctAnswer": "Speed Up"
-    },
-    {
-        "Question": "",
-        "option1": 7.0,
-        "option2": "A Steady Yellow light means that a ____ light will appear soon:",
-        "option3": "Steady Green",
-        "option4": "Steady Red",
-        "correctAnswer": "Flashing Yello"
-    },
-    {
-        "Question": "",
-        "option1": 8.0,
-        "option2": "If another car is in danger of hitting you, you should",
-        "option3": "Flash your headlights",
-        "option4": "Use your emergency lights",
-        "correctAnswer": "Sound your horn"
-    },
-    {
-        "Question": "",
-        "option1": 9.0,
-        "option2": "Your brake lights tells other drivers that you",
-        "option3": "Have your emergency brake on",
-        "option4": "Are slowing down or stopping",
-        "correctAnswer": "Are changing lanes"
-    },
-    {
-        "Question": "",
-        "option1": 10.0,
-        "option2": "When you see other drivers around you acting or reacting in anger:",
-        "option3": "All of these",
-        "option4": "Distance yourself from the situation",
-        "correctAnswer": "slow down, move over safely"
-    },
-    {
-        "Question": "",
-        "option1": 11.0,
-        "option2": "When driving in Fog",
-        "option3": "Use your high beams",
-        "option4": "Use your low beams",
-        "correctAnswer": "It makes no difference which light you use"
-    },
-    {
-        "Question": "",
-        "option1": 12.0,
-        "option2": "Which of the following must you obey over the other three",
-        "option3": "A steady red light",
-        "option4": "A flashing red light",
-        "correctAnswer": "A policeman"
-    },
-    {
-        "Question": "",
-        "option1": 13.0,
-        "option2": "Lanes of traffic moving in the same direction are divided by ___lines",
+        "Question": "Lanes of traffice moving in the same direction are divided by ___lines",
+        "option1": "Black",
+        "option2": "Red",
         "option3": "Yellow",
         "option4": "White",
-        "correctAnswer": "Red"
+        "correctAnswer": 4.0
     },
     {
-        "Question": "",
-        "option1": 14.0,
-        "option2": "What does a flashing yellow light mean",
-        "option3": "Come to a full stop",
-        "option4": "Merging traffic",
-        "correctAnswer": "Pedestrain crossing"
+        "Question": "You must pull over to the edge of the road and allow an emergency vehicle to pass",
+        "option1": "Only if it is following you",
+        "option2": "Regardless of your direction",
+        "option3": "none of the above",
+        "option4": "only if it is approaching",
+        "correctAnswer": 2.0
     },
     {
-        "Question": "",
-        "option1": 15.0,
-        "option2": "Hydroplanning is usually caused by",
-        "option3": "Excessive Speed",
-        "option4": "Excessive Stops",
-        "correctAnswer": "Sudden Turns"
+        "Question": "To check your blindspot before changing lanes",
+        "option1": "Look into left side mirror",
+        "option2": "Look into rightside mirror",
+        "option3": "look into rear mirror",
+        "option4": "Look over your shoulder in the direction you plan to move",
+        "correctAnswer": 4.0
     },
     {
-        "Question": "",
-        "option1": 16.0,
-        "option2": "You must yield when a driver is turning and a pedestrian is crossing without a traffic light",
-        "option3": "The pedestrian",
-        "option4": "Whoever started last",
-        "correctAnswer": "Whoever is slower"
+        "Question": "The percentage of highway deaths caused by drunken person is about",
+        "option1": 0.38,
+        "option2": 0.67,
+        "option3": 0.1,
+        "option4": 0.25,
+        "correctAnswer": 1.0
     },
     {
-        "Question": "",
-        "option1": 17.0,
-        "option2": "A Road Sign with a STOP in Red background means",
-        "option3": "Slow down or Stop",
-        "option4": "drive with caution and be ready to stop",
-        "correctAnswer": "stop if necessary"
+        "Question": "A roadsign with a person walking on a yellow background means",
+        "option1": "Jogging trail",
+        "option2": "School crossing",
+        "option3": "pedestrian crossing",
+        "option4": "busy sidewalk",
+        "correctAnswer": 3.0
     },
     {
-        "Question": "",
-        "option1": 18.0,
-        "option2": "If you begin to feel tired while driving, the best thing to do is",
-        "option3": "Turn on the radio",
-        "option4": "Get some coffee",
-        "correctAnswer": "Open your window"
+        "Question": "When driving on slick roads, you should",
+        "option1": "Take turns more slowly",
+        "option2": "Accelerate quickly",
+        "option3": "Brake hard",
+        "option4": "Change langes quickly",
+        "correctAnswer": 1.0
     },
     {
-        "Question": "",
-        "option1": 19.0,
-        "option2": "Braking distance is affected by ",
-        "option3": "All of these",
-        "option4": "Speed of your vehicle",
-        "correctAnswer": "condition of your brackes"
+        "Question": "Allow a larger space cushion when stopping",
+        "option1": "At an Intersection",
+        "option2": "on a up hill",
+        "option3": "At a Stop Sign",
+        "option4": "At a toll Plaza",
+        "correctAnswer": 2.0
     },
     {
-        "Question": "",
-        "option1": 20.0,
-        "option2": "On slipper road you should ",
-        "option3": "not drive faster than 20 mph",
-        "option4": "Go with speed limit with caution",
-        "correctAnswer": "Slow down "
-    },
-    {
-        "Question": "",
-        "option1": 21.0,
-        "option2": "",
-        "option3": "",
-        "option4": "",
-        "correctAnswer": ""
-    },
-    {
-        "Question": "",
-        "option1": 22.0,
-        "option2": "",
-        "option3": "",
-        "option4": "",
-        "correctAnswer": ""
-    },
-    {
-        "Question": "",
-        "option1": 23.0,
-        "option2": "",
-        "option3": "",
-        "option4": "",
-        "correctAnswer": ""
-    },
-    {
-        "Question": "",
-        "option1": 24.0,
-        "option2": "",
-        "option3": "",
-        "option4": "",
-        "correctAnswer": ""
-    },
-    {
-        "Question": "",
-        "option1": 25.0,
-        "option2": "",
-        "option3": "",
-        "option4": "",
-        "correctAnswer": ""
-    }
-][
-    {
-        "Question": "",
-        "option1": "Question Number",
-        "option2": "Question",
-        "option3": "Answer 1",
-        "option4": "Answer 2",
-        "correctAnswer": "Answer 3"
-    },
-    {
-        "Question": "",
-        "option1": 1.0,
-        "option2": "A Flashing Yellow Light means you should",
-        "option3": "Stop and Proceed when the way is clear",
-        "option4": "Slow down and proceed with care",
-        "correctAnswer": "Continue throught if the way is clear"
-    },
-    {
-        "Question": "",
-        "option1": 2.0,
-        "option2": "If you are driving behind a motorycycle, you must",
-        "option3": "Allow the motor cycle to use complete lane",
-        "option4": "Allow the motor cycle to use only half of the lane",
-        "correctAnswer": "Drive on the Shoulder beside the motorcycle"
-    },
-    {
-        "Question": "",
-        "option1": 3.0,
-        "option2": "When driving in traffic, it is safest to",
-        "option3": "Drive with the flow of traffic",
-        "option4": "Drive fast than the flow",
-        "correctAnswer": "Drive slower than the flow"
-    },
-    {
-        "Question": "",
-        "option1": 4.0,
-        "option2": "Double Solid yellow lines painted down the middle of the road mean",
-        "option3": "Railroad crossing ahead",
-        "option4": "Passing is permitted in either direction",
-        "correctAnswer": "Pedestrian crossing ahead"
-    },
-    {
-        "Question": "",
-        "option1": 5.0,
-        "option2": "When stopped by a police offer you should",
-        "option3": "Get of of the car",
-        "option4": "unbucle your seat belt and lower your window",
-        "correctAnswer": "stay in your vehicle with your hands on the steering wheel and wait"
-    },
-    {
-        "Question": "",
-        "option1": 6.0,
-        "option2": "Lanes of traffice moving in the same direction are divided by ___lines",
-        "option3": "Black",
-        "option4": "Red",
-        "correctAnswer": "Yellow"
-    },
-    {
-        "Question": "",
-        "option1": 7.0,
-        "option2": "You must pull over to the edge of the road and allow an emergency vehicle to pass",
-        "option3": "Only if it is following you",
-        "option4": "Regardless of your direction",
-        "correctAnswer": "none of the above"
-    },
-    {
-        "Question": "",
-        "option1": 8.0,
-        "option2": "To check your blindspot before changing lanes",
-        "option3": "Look into left side mirror",
-        "option4": "Look into rightside mirror",
-        "correctAnswer": "look into rear mirror"
-    },
-    {
-        "Question": "",
-        "option1": 9.0,
-        "option2": "The percentage of highway deaths caused by drunken person is about",
-        "option3": 0.38,
-        "option4": 0.67,
-        "correctAnswer": 0.1
-    },
-    {
-        "Question": "",
-        "option1": 10.0,
-        "option2": "A roadsign with a person walking on a yellow background means",
-        "option3": "Jogging trail",
-        "option4": "School crossing",
-        "correctAnswer": "pedestrian crossing"
-    },
-    {
-        "Question": "",
-        "option1": 11.0,
-        "option2": "When driving on slick roads, you should",
-        "option3": "Take turns more slowly",
-        "option4": "Accelerate quickly",
-        "correctAnswer": "Brake hard"
-    },
-    {
-        "Question": "",
-        "option1": 12.0,
-        "option2": "Allow a larger space cushion when stopping",
-        "option3": "At an Intersection",
-        "option4": "on a up hill",
-        "correctAnswer": "At a Stop Sign"
-    },
-    {
-        "Question": "",
-        "option1": 13.0,
-        "option2": "You must yield for emergency vehicles",
-        "option3": "only when orther vehicles yield",
-        "option4": "When you see a flashing red or blue light or hear a siren",
-        "correctAnswer": "never"
-    },
-    {
-        "Question": "",
-        "option1": 14.0,
-        "option2": "Roads become very slippery ",
-        "option3": "when it has been raining for an hour or more",
-        "option4": "the day after it rains",
-        "correctAnswer": "for the first 10 to 15 minutes of a rain"
-    },
-    {
-        "Question": "",
-        "option1": 15.0,
-        "option2": "The most effective safety restrains in traffice crash are",
-        "option3": "air bag only",
-        "option4": "combination lap/shoulder belt and air bag",
-        "correctAnswer": "lap and shoulder belt only"
-    },
-    {
-        "Question": "",
-        "option1": 16.0,
-        "option2": "When getting ready to change lanes",
-        "option3": "check your side view mirror",
-        "option4": "quickly turn your head to check for other vehicles",
-        "correctAnswer": "Check your rearview mirror"
-    },
-    {
-        "Question": "",
-        "option1": 17.0,
-        "option2": "You may cross solid yellow lines",
-        "option3": "at any time",
-        "option4": "during daylight hours only",
-        "correctAnswer": "to pass traffice moving in the same direction"
-    },
-    {
-        "Question": "",
-        "option1": 18.0,
-        "option2": "You may pass if the line dividing two lanes is a ___line",
-        "option3": "Dobule solid yellow",
-        "option4": "Solid Yellow",
-        "correctAnswer": "Solid White"
-    },
-    {
-        "Question": "",
-        "option1": 19.0,
-        "option2": "What are some telltale signes of a drunk driver",
-        "option3": "Weaving between lanes",
-        "option4": "Driving slower than normal",
-        "correctAnswer": "Quick and sudden stops"
-    },
-    {
-        "Question": "",
-        "option1": 20.0,
-        "option2": "If someone has consumed alchohol what will help the person overcome the influence of the drinks",
-        "option3": "Tomato Juice",
-        "option4": "Time",
-        "correctAnswer": "Hot coffee"
-    },
-    {
-        "Question": "",
-        "option1": 21.0,
-        "option2": "",
-        "option3": "",
-        "option4": "",
-        "correctAnswer": ""
-    },
-    {
-        "Question": "",
-        "option1": 22.0,
-        "option2": "",
-        "option3": "",
-        "option4": "",
-        "correctAnswer": ""
-    },
-    {
-        "Question": "",
-        "option1": 23.0,
-        "option2": "",
-        "option3": "",
-        "option4": "",
-        "correctAnswer": ""
-    },
-    {
-        "Question": "",
-        "option1": 24.0,
-        "option2": "",
-        "option3": "",
-        "option4": "",
-        "correctAnswer": ""
-    },
-    {
-        "Question": "",
-        "option1": 25.0,
-        "option2": "",
-        "option3": "",
-        "option4": "",
-        "correctAnswer": ""
-    }
-][
-    {
-        "Question": "",
-        "option1": "Question Number",
-        "option2": "Question",
-        "option3": "Answer 1",
-        "option4": "Answer 2",
-        "correctAnswer": "Answer 3"
-    },
-    {
-        "Question": "",
-        "option1": 1.0,
-        "option2": "You may not pass another car on either side of a ___ centerline",
-        "option3": "Single broken yellow",
-        "option4": "Combination solid and broken yellow",
-        "correctAnswer": "Single broken white"
-    },
-    {
-        "Question": "",
-        "option1": 2.0,
-        "option2": "To avoid being ina truck or bus driver blindspot and help them see you,",
-        "option3": "Avoid driving on either side and dont tailgate",
-        "option4": "Sound your horn",
-        "correctAnswer": "never pass them"
-    },
-    {
-        "Question": "",
-        "option1": 3.0,
-        "option2": "If you drink alcohol socially when helps insure safe driving",
-        "option3": "Ride home with a friend who has not been drinking",
-        "option4": "stop drinking one-half hour before driving",
-        "correctAnswer": "drink coffee before driving"
-    },
-    {
-        "Question": "",
-        "option1": 4.0,
-        "option2": "A driver approaching a flashing red traffic signal must",
-        "option3": "stop before entering the intersection",
-        "option4": "Merge to the right",
-        "correctAnswer": "Drive carefully without stopping"
-    },
-    {
-        "Question": "",
-        "option1": 5.0,
-        "option2": "Do not floow other cars too closely because",
-        "option3": "you may not see the vehicle turn signals",
-        "option4": "you may not see the vehicle brake lights",
-        "correctAnswer": "you mau not have time to stop in the vehicle in front stops suddently"
-    },
-    {
-        "Question": "",
-        "option1": 6.0,
-        "option2": "Vehicle stopping distances never depend on",
-        "option3": "Time of the day",
-        "option4": "condition and type of vehicle tyre",
-        "correctAnswer": "condition of the brakes"
-    },
-    {
-        "Question": "",
-        "option1": 7.0,
-        "option2": "Which of the following is true about driving on a wet roadway",
-        "option3": "As you decrese the speed the road comes more slippery",
-        "option4": "Deeper water is less dangerous",
-        "correctAnswer": "Water does not affect car with good tires"
-    },
-    {
-        "Question": "",
-        "option1": 8.0,
-        "option2": "Aggressive drivers ",
-        "option3": "take out their frustrations on other drivers",
-        "option4": "are high risk drivers",
-        "correctAnswer": "run stop signs, speed, tailgate and make improper lane changes"
-    },
-    {
-        "Question": "",
-        "option1": 9.0,
-        "option2": "Preparing to smoke and smoking while driving",
-        "option3": "Do not affect driving abilities",
-        "option4": "Are distracting activities",
-        "correctAnswer": "are not distracting activities"
-    },
-    {
-        "Question": "",
-        "option1": 10.0,
-        "option2": "when you drive thru an area where children are playing, you should expect them: ",
-        "option3": "to know when it is safe to cross",
-        "option4": "Not to cross unless they are with an adult",
-        "correctAnswer": "To run out in front of you without looking"
-    },
-    {
-        "Question": "",
-        "option1": 11.0,
-        "option2": "Before turning, you should",
-        "option3": "Increase your speed",
-        "option4": "Turn the wheel",
-        "correctAnswer": "Change lanes"
-    },
-    {
-        "Question": "",
-        "option1": 12.0,
-        "option2": "To prepare for anything coming up in the road ahead, you should",
-        "option3": "Continually scan the entire road and roadsides",
-        "option4": "Drive with your left foot resting on brake",
-        "correctAnswer": "Stare straight ahead at all times"
-    },
-    {
-        "Question": "",
-        "option1": 13.0,
-        "option2": "A Square Yellow Box is a sign for",
-        "option3": "Service Sign",
-        "option4": "Warning Sign - Caution",
-        "correctAnswer": "Regulatory Sign - Traffic rules"
-    },
-    {
-        "Question": "",
-        "option1": 14.0,
-        "option2": "IF you stop at a railroad crossing with more than one track",
-        "option3": "Stop on the track and watch for another train",
-        "option4": "Go throught when one of the track is free",
-        "correctAnswer": "Go throught as soon as the train passes"
-    },
-    {
-        "Question": "",
-        "option1": 15.0,
-        "option2": "You may park or stop on the shoulder of freeway ",
-        "option3": "Only if you have an emergency",
-        "option4": "As long as you turm on your 4 way emergency flashers",
-        "correctAnswer": "If you need to look for map or directions"
-    },
-    {
-        "Question": "",
-        "option1": 16.0,
-        "option2": "A Speed limit is",
-        "option3": "The minimum legal speed you can travel on the road",
+        "Question": "You must yield for emergency vehicles",
+        "option1": "only when orther vehicles yield",
+        "option2": "When you see a flashing red or blue light or hear a siren",
+        "option3": "never",
         "option4": "none of the above",
-        "correctAnswer": "the suggested speeed to travel on the road under ideal conditions"
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "Roads become very slippery ",
+        "option1": "when it has been raining for an hour or more",
+        "option2": "the day after it rains",
+        "option3": "for the first 10 to 15 minutes of a rain",
+        "option4": "Right after the rain has stopped",
+        "correctAnswer": 3.0
+    },
+    {
+        "Question": "The most effective safety restrains in traffice crash are",
+        "option1": "air bag only",
+        "option2": "combination lap/shoulder belt and air bag",
+        "option3": "lap and shoulder belt only",
+        "option4": "no safety restraint",
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "When getting ready to change lanes",
+        "option1": "check your side view mirror",
+        "option2": "quickly turn your head to check for other vehicles",
+        "option3": "Check your rearview mirror",
+        "option4": "all the above",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "You may cross solid yellow lines",
+        "option1": "at any time",
+        "option2": "during daylight hours only",
+        "option3": "to pass traffice moving in the same direction",
+        "option4": "when making Turns",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "You may pass if the line dividing two lanes is a ___line",
+        "option1": "Dobule solid yellow",
+        "option2": "Solid Yellow",
+        "option3": "Solid White",
+        "option4": "Broken White",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "What are some telltale signes of a drunk driver",
+        "option1": "Weaving between lanes",
+        "option2": "Driving slower than normal",
+        "option3": "Quick and sudden stops",
+        "option4": "All of above",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "If someone has consumed alchohol what will help the person overcome the influence of the drinks",
+        "option1": "Tomato Juice",
+        "option2": "Time",
+        "option3": "Hot coffee",
+        "option4": "Fresh Air",
+        "correctAnswer": 2.0
     },
     {
         "Question": "",
-        "option1": 17.0,
-        "option2": "Anything that requires you to ____ could cause you to crash",
-        "option3": "All of the above",
-        "option4": "Take your eyes off the road",
-        "correctAnswer": "Take your attention away from the driving"
-    },
-    {
-        "Question": "",
-        "option1": 18.0,
-        "option2": "Conviction for which item carries the highest rumber of points",
-        "option3": "Reckless driving",
-        "option4": "Driving without license",
-        "correctAnswer": "Passing a stopped school bus with is unloading children"
-    },
-    {
-        "Question": "",
-        "option1": 19.0,
-        "option2": "The percentage of highway deaths caused by drunken person is about",
-        "option3": 0.38,
-        "option4": 0.67,
-        "correctAnswer": 0.1
-    },
-    {
-        "Question": "",
-        "option1": 20.0,
-        "option2": "Hydroplanning is usually caused by",
-        "option3": "Excessive Speed",
-        "option4": "Excessive Stops",
-        "correctAnswer": "Sudden Turns"
-    },
-    {
-        "Question": "",
-        "option1": 21.0,
+        "option1": "",
         "option2": "",
         "option3": "",
         "option4": "",
@@ -595,7 +177,7 @@
     },
     {
         "Question": "",
-        "option1": 22.0,
+        "option1": "",
         "option2": "",
         "option3": "",
         "option4": "",
@@ -603,7 +185,7 @@
     },
     {
         "Question": "",
-        "option1": 23.0,
+        "option1": "",
         "option2": "",
         "option3": "",
         "option4": "",
@@ -611,7 +193,7 @@
     },
     {
         "Question": "",
-        "option1": 24.0,
+        "option1": "",
         "option2": "",
         "option3": "",
         "option4": "",
@@ -619,7 +201,426 @@
     },
     {
         "Question": "",
-        "option1": 25.0,
+        "option1": "",
+        "option2": "",
+        "option3": "",
+        "option4": "",
+        "correctAnswer": ""
+    }
+],
+    [
+    {
+        "Question": "Question",
+        "option1": "Answer 1",
+        "option2": "Answer 2",
+        "option3": "Answer 3",
+        "option4": "Answer 4",
+        "correctAnswer": "Correct Answer"
+    },
+    {
+        "Question": "A Flashing Yellow Light means you should",
+        "option1": "Stop and Proceed when the way is clear",
+        "option2": "Slow down and proceed with care",
+        "option3": "Continue throught if the way is clear",
+        "option4": "Stop and proceed when a green light appears",
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "If you are driving behind a motorycycle, you must",
+        "option1": "Allow the motor cycle to use complete lane",
+        "option2": "Allow the motor cycle to use only half of the lane",
+        "option3": "Drive on the Shoulder beside the motorcycle",
+        "option4": "Pass in the same lane where the motor cycle is driving",
+        "correctAnswer": 1.0
+    },
+    {
+        "Question": "When driving in traffic, it is safest to",
+        "option1": "Drive with the flow of traffic",
+        "option2": "Drive fast than the flow",
+        "option3": "Drive slower than the flow",
+        "option4": "Fluctuate your speed",
+        "correctAnswer": 1.0
+    },
+    {
+        "Question": "Double Solid yellow lines painted down the middle of the road mean",
+        "option1": "Railroad crossing ahead",
+        "option2": "Passing is permitted in either direction",
+        "option3": "Pedestrian crossing ahead",
+        "option4": "Passing is not permitted in either direction",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "When stopped by a police offer you should",
+        "option1": "Get of of the car",
+        "option2": "unbucle your seat belt and lower your window",
+        "option3": "stay in your vehicle with your hands on the steering wheel and wait",
+        "option4": "Get your paperwork ready before the office reaches",
+        "correctAnswer": 3.0
+    },
+    {
+        "Question": "Lanes of traffice moving in the same direction are divided by ___lines",
+        "option1": "Black",
+        "option2": "Red",
+        "option3": "Yellow",
+        "option4": "White",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "You must pull over to the edge of the road and allow an emergency vehicle to pass",
+        "option1": "Only if it is following you",
+        "option2": "Regardless of your direction",
+        "option3": "none of the above",
+        "option4": "only if it is approaching",
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "To check your blindspot before changing lanes",
+        "option1": "Look into left side mirror",
+        "option2": "Look into rightside mirror",
+        "option3": "look into rear mirror",
+        "option4": "Look over your shoulder in the direction you plan to move",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "The percentage of highway deaths caused by drunken person is about",
+        "option1": 0.38,
+        "option2": 0.67,
+        "option3": 0.1,
+        "option4": 0.25,
+        "correctAnswer": 1.0
+    },
+    {
+        "Question": "A roadsign with a person walking on a yellow background means",
+        "option1": "Jogging trail",
+        "option2": "School crossing",
+        "option3": "pedestrian crossing",
+        "option4": "busy sidewalk",
+        "correctAnswer": 3.0
+    },
+    {
+        "Question": "When driving on slick roads, you should",
+        "option1": "Take turns more slowly",
+        "option2": "Accelerate quickly",
+        "option3": "Brake hard",
+        "option4": "Change langes quickly",
+        "correctAnswer": 1.0
+    },
+    {
+        "Question": "Allow a larger space cushion when stopping",
+        "option1": "At an Intersection",
+        "option2": "on a up hill",
+        "option3": "At a Stop Sign",
+        "option4": "At a toll Plaza",
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "You must yield for emergency vehicles",
+        "option1": "only when orther vehicles yield",
+        "option2": "When you see a flashing red or blue light or hear a siren",
+        "option3": "never",
+        "option4": "none of the above",
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "Roads become very slippery ",
+        "option1": "when it has been raining for an hour or more",
+        "option2": "the day after it rains",
+        "option3": "for the first 10 to 15 minutes of a rain",
+        "option4": "Right after the rain has stopped",
+        "correctAnswer": 3.0
+    },
+    {
+        "Question": "The most effective safety restrains in traffice crash are",
+        "option1": "air bag only",
+        "option2": "combination lap/shoulder belt and air bag",
+        "option3": "lap and shoulder belt only",
+        "option4": "no safety restraint",
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "When getting ready to change lanes",
+        "option1": "check your side view mirror",
+        "option2": "quickly turn your head to check for other vehicles",
+        "option3": "Check your rearview mirror",
+        "option4": "all the above",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "You may cross solid yellow lines",
+        "option1": "at any time",
+        "option2": "during daylight hours only",
+        "option3": "to pass traffice moving in the same direction",
+        "option4": "when making Turns",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "You may pass if the line dividing two lanes is a ___line",
+        "option1": "Dobule solid yellow",
+        "option2": "Solid Yellow",
+        "option3": "Solid White",
+        "option4": "Broken White",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "What are some telltale signes of a drunk driver",
+        "option1": "Weaving between lanes",
+        "option2": "Driving slower than normal",
+        "option3": "Quick and sudden stops",
+        "option4": "All of above",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "If someone has consumed alchohol what will help the person overcome the influence of the drinks",
+        "option1": "Tomato Juice",
+        "option2": "Time",
+        "option3": "Hot coffee",
+        "option4": "Fresh Air",
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "",
+        "option1": "",
+        "option2": "",
+        "option3": "",
+        "option4": "",
+        "correctAnswer": ""
+    },
+    {
+        "Question": "",
+        "option1": "",
+        "option2": "",
+        "option3": "",
+        "option4": "",
+        "correctAnswer": ""
+    },
+    {
+        "Question": "",
+        "option1": "",
+        "option2": "",
+        "option3": "",
+        "option4": "",
+        "correctAnswer": ""
+    },
+    {
+        "Question": "",
+        "option1": "",
+        "option2": "",
+        "option3": "",
+        "option4": "",
+        "correctAnswer": ""
+    },
+    {
+        "Question": "",
+        "option1": "",
+        "option2": "",
+        "option3": "",
+        "option4": "",
+        "correctAnswer": ""
+    }
+][
+    {
+        "Question": "Question",
+        "option1": "Answer 1",
+        "option2": "Answer 2",
+        "option3": "Answer 3",
+        "option4": "Answer 4",
+        "correctAnswer": "Correct Answer"
+    },
+    {
+        "Question": "A Flashing Yellow Light means you should",
+        "option1": "Stop and Proceed when the way is clear",
+        "option2": "Slow down and proceed with care",
+        "option3": "Continue throught if the way is clear",
+        "option4": "Stop and proceed when a green light appears",
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "If you are driving behind a motorycycle, you must",
+        "option1": "Allow the motor cycle to use complete lane",
+        "option2": "Allow the motor cycle to use only half of the lane",
+        "option3": "Drive on the Shoulder beside the motorcycle",
+        "option4": "Pass in the same lane where the motor cycle is driving",
+        "correctAnswer": 1.0
+    },
+    {
+        "Question": "When driving in traffic, it is safest to",
+        "option1": "Drive with the flow of traffic",
+        "option2": "Drive fast than the flow",
+        "option3": "Drive slower than the flow",
+        "option4": "Fluctuate your speed",
+        "correctAnswer": 1.0
+    },
+    {
+        "Question": "Double Solid yellow lines painted down the middle of the road mean",
+        "option1": "Railroad crossing ahead",
+        "option2": "Passing is permitted in either direction",
+        "option3": "Pedestrian crossing ahead",
+        "option4": "Passing is not permitted in either direction",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "When stopped by a police offer you should",
+        "option1": "Get of of the car",
+        "option2": "unbucle your seat belt and lower your window",
+        "option3": "stay in your vehicle with your hands on the steering wheel and wait",
+        "option4": "Get your paperwork ready before the office reaches",
+        "correctAnswer": 3.0
+    },
+    {
+        "Question": "Lanes of traffice moving in the same direction are divided by ___lines",
+        "option1": "Black",
+        "option2": "Red",
+        "option3": "Yellow",
+        "option4": "White",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "You must pull over to the edge of the road and allow an emergency vehicle to pass",
+        "option1": "Only if it is following you",
+        "option2": "Regardless of your direction",
+        "option3": "none of the above",
+        "option4": "only if it is approaching",
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "To check your blindspot before changing lanes",
+        "option1": "Look into left side mirror",
+        "option2": "Look into rightside mirror",
+        "option3": "look into rear mirror",
+        "option4": "Look over your shoulder in the direction you plan to move",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "The percentage of highway deaths caused by drunken person is about",
+        "option1": 0.38,
+        "option2": 0.67,
+        "option3": 0.1,
+        "option4": 0.25,
+        "correctAnswer": 1.0
+    },
+    {
+        "Question": "A roadsign with a person walking on a yellow background means",
+        "option1": "Jogging trail",
+        "option2": "School crossing",
+        "option3": "pedestrian crossing",
+        "option4": "busy sidewalk",
+        "correctAnswer": 3.0
+    },
+    {
+        "Question": "When driving on slick roads, you should",
+        "option1": "Take turns more slowly",
+        "option2": "Accelerate quickly",
+        "option3": "Brake hard",
+        "option4": "Change langes quickly",
+        "correctAnswer": 1.0
+    },
+    {
+        "Question": "Allow a larger space cushion when stopping",
+        "option1": "At an Intersection",
+        "option2": "on a up hill",
+        "option3": "At a Stop Sign",
+        "option4": "At a toll Plaza",
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "You must yield for emergency vehicles",
+        "option1": "only when orther vehicles yield",
+        "option2": "When you see a flashing red or blue light or hear a siren",
+        "option3": "never",
+        "option4": "none of the above",
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "Roads become very slippery ",
+        "option1": "when it has been raining for an hour or more",
+        "option2": "the day after it rains",
+        "option3": "for the first 10 to 15 minutes of a rain",
+        "option4": "Right after the rain has stopped",
+        "correctAnswer": 3.0
+    },
+    {
+        "Question": "The most effective safety restrains in traffice crash are",
+        "option1": "air bag only",
+        "option2": "combination lap/shoulder belt and air bag",
+        "option3": "lap and shoulder belt only",
+        "option4": "no safety restraint",
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "When getting ready to change lanes",
+        "option1": "check your side view mirror",
+        "option2": "quickly turn your head to check for other vehicles",
+        "option3": "Check your rearview mirror",
+        "option4": "all the above",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "You may cross solid yellow lines",
+        "option1": "at any time",
+        "option2": "during daylight hours only",
+        "option3": "to pass traffice moving in the same direction",
+        "option4": "when making Turns",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "You may pass if the line dividing two lanes is a ___line",
+        "option1": "Dobule solid yellow",
+        "option2": "Solid Yellow",
+        "option3": "Solid White",
+        "option4": "Broken White",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "What are some telltale signes of a drunk driver",
+        "option1": "Weaving between lanes",
+        "option2": "Driving slower than normal",
+        "option3": "Quick and sudden stops",
+        "option4": "All of above",
+        "correctAnswer": 4.0
+    },
+    {
+        "Question": "If someone has consumed alchohol what will help the person overcome the influence of the drinks",
+        "option1": "Tomato Juice",
+        "option2": "Time",
+        "option3": "Hot coffee",
+        "option4": "Fresh Air",
+        "correctAnswer": 2.0
+    },
+    {
+        "Question": "",
+        "option1": "",
+        "option2": "",
+        "option3": "",
+        "option4": "",
+        "correctAnswer": ""
+    },
+    {
+        "Question": "",
+        "option1": "",
+        "option2": "",
+        "option3": "",
+        "option4": "",
+        "correctAnswer": ""
+    },
+    {
+        "Question": "",
+        "option1": "",
+        "option2": "",
+        "option3": "",
+        "option4": "",
+        "correctAnswer": ""
+    },
+    {
+        "Question": "",
+        "option1": "",
+        "option2": "",
+        "option3": "",
+        "option4": "",
+        "correctAnswer": ""
+    },
+    {
+        "Question": "",
+        "option1": "",
         "option2": "",
         "option3": "",
         "option4": "",

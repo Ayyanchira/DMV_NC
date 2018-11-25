@@ -1,7 +1,11 @@
 import json
 import Questionnaire
 import spl
+from art import *
+
 class MainLogic:
+
+
 
     def __init__(self, answerA=None, answerB=None, answerC=None, answerD=None, correctAnswer=None):
         self.question = None
@@ -28,24 +32,15 @@ class MainLogic:
             self.answerD = answer
 
 
-if __name__ == "__main__":
-    # data = { }
-    # for x in range(1,10):
-    #
-    #     q1 = Question()
-    #     q1.question = input("Enter question number {}".format(x))
-    #     q1.answerA = input("Enter option 1")
-    #     q1.answerB = input("Enter option 2")
-    #     q1.answerC = input("Enter option 3")
-    #     q1.answerD = input("Enter option 4")
-    #
-    #     data["question {}".format(x)] = q1
-    #
-    # print(data)
 
-    print("#######################################################")
-    print("Hi! Welcome to North Carolina DMV Test.")
-    difficulty = input("Input the Difficulty level you want:\n 1: Easy \n 2: Moderate \n 3: Difficult\n")
+if __name__ == "__main__":
+
+
+    print("#####################################################################################################################################################################")
+    welcomeMessage = text2art("             Welcome   to   NC  DMV  Test")
+    print(welcomeMessage)
+    print("#####################################################################################################################################################################")
+    difficulty = input("\n\nInput the Difficulty level you want:\n 1: Easy \n 2: Moderate \n 3: Difficult\n\n")
     
     #print("Generating question set for your test...")
     # call sakshis function by passing parameter difficulty and 15 if required
@@ -59,21 +54,25 @@ if __name__ == "__main__":
     questionnaire.maxScore = 15
     questionnaire.currentScore = 0
     retryAttempt = 0
+
     print(
-        "\n Your Question set is ready.\n INFORMATION: There will be 15 questions asked. Each question will have 4 option to choose from out of which one will be the correct one.")
+        "\nYour Question set is ready.\nINFORMATION: There will be 15 questions asked. Each question will have 4 option to choose from out of which one will be the correct one.")
     print("After each question, press desired option number and press enter to proceed.\n")
 
     # TODO if difficulty = 1
-    #print("For difficulty level easy, you get an extra chance to if your first answer is wrong.")
+    if int(difficulty) == 1:
+        print("For difficulty level easy, you get an extra chance to if your first answer is wrong.\n\n")
 
     input("Press enter to begin the test\n")
-
-    for question in questions:
+    print(text2art("Score : 0/15"))
+    print("#####################################################################################################################################################################")
+    for (index, question) in enumerate(questions):
         # Reset retry attempt
-        print("current score is :{} ".format(questionnaire.currentScore))
+
         if int(difficulty) == 1:
             retryAttempt = 1
         # Ask the question
+        print("Question ",index + 1)
         print(question["Question"])
         print("\n Options Are:")
         print("[1] : ", question["option1"])
@@ -85,27 +84,29 @@ if __name__ == "__main__":
         selectedAnswer = input("Type the option number and press enter: \n")
         # Check if its correct
         if int(selectedAnswer) == int(question["correctAnswer"]):
-            print("Correct Answer")
+            print(text2art("Great!"))
             # If correct, add 1 to the score
             questionnaire.currentScore += 1
 
         else:
-            print("Ah Oh!")
+            print(text2art("Oops! Thats wrong!"))
             
             if retryAttempt > 0:
                 while retryAttempt > 0:
-                    selectedAnswer = input("thats wrong... Try another option...")
+                    selectedAnswer = input(text2art("Try another option..."))
                     if int(selectedAnswer) == int(question["correctAnswer"]):
-                        print("There you go!!!")
+                        print(text2art("Awesome! You Got It!"))
                         # If correct, add 1 to the score
                         questionnaire.currentScore += 1
                     else:
-                        print("Thats not it! try next question.")
+                        print(text2art("Never mind."))
                     retryAttempt -= 1
+        scoreMessage = ("Score : {} / 15".format(questionnaire.currentScore))
+        print(text2art(scoreMessage))
+        print("#####################################################################################################################################################################")
     if questionnaire.currentScore > 10:
-        result = "Pass"
-        message = " Congratulations."
+        congratulationsMessage = text2art("Congratulations! You Passed !!!")
+        print(congratulationsMessage)
     else:
-        result = "Fail"
-        message = "Please try again after a week."
-    print("You {} the exam {}".format(result,message))
+        failureMessage = text2art("You failed!")
+        print(failureMessage)

@@ -49,7 +49,7 @@ class dataCollection:
 
 			sh1 = self.book.sheet_by_index(0)
 			rand = random.sample(range(1,sh1.nrows), 15)
-			print(rand)
+			#print(rand)
 
 			for rx in rand:
 				question = {"Question": sh1.row(rx)[1].value,
@@ -91,10 +91,6 @@ class dataCollection:
 				self.store.append(question)
 			return self.store
 
-obj = dataCollection('Spl_1.xlsx')
-ques = obj.getQuestions(3)
-for q in ques:
-	print(q)
 
 
 

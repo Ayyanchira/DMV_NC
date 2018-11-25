@@ -1,6 +1,6 @@
 import json
 import Questionnaire
-
+import spl
 class MainLogic:
 
     def __init__(self, answerA=None, answerB=None, answerC=None, answerD=None, correctAnswer=None):
@@ -43,61 +43,69 @@ if __name__ == "__main__":
     #
     # print(data)
 
+    print("#######################################################")
     print("Hi! Welcome to North Carolina DMV Test.")
-    difficulty = input("Input the Difficulty level you want:\n 1: Easy \n 2: Moderate \n 3: Difficult")
-    print("Thank you for the input....")
-
-    print("Generating question set for your test...")
+    difficulty = input("Input the Difficulty level you want:\n 1: Easy \n 2: Moderate \n 3: Difficult\n")
+    
+    #print("Generating question set for your test...")
     # call sakshis function by passing parameter difficulty and 15 if required
-    questionnaire = Questionnaire
+    splInstance = spl.dataCollection('Spl_1.xlsx')
+    #debug
+    # print(splInstance.book)
+    questions = splInstance.getQuestions(int(difficulty))
+  #debug
+    #print(questions)
+    questionnaire = Questionnaire.Questionnaire(questions,0,0)
     questionnaire.maxScore = 15
     questionnaire.currentScore = 0
     retryAttempt = 0
     print(
-        "Your Question set is ready.\n INFORMATION: There will be 15 questions asked. Each question will have 4 option to choose from out of which one will be the correct one.")
-    print("After each question, press desired option number and press enter to proceed.")
+        "\n Your Question set is ready.\n INFORMATION: There will be 15 questions asked. Each question will have 4 option to choose from out of which one will be the correct one.")
+    print("After each question, press desired option number and press enter to proceed.\n")
 
     # TODO if difficulty = 1
-    print("For difficulty level easy, you get an extra chance to if your first answer is wrong.")
+    #print("For difficulty level easy, you get an extra chance to if your first answer is wrong.")
 
-    input("Press enter to begin the test")
+    input("Press enter to begin the test\n")
 
-
-
-    for question in questionnaire:
-
+    for question in questions:
         # Reset retry attempt
-        if difficulty == 1:
+        print("current score is :{} ".format(questionnaire.currentScore))
+        if int(difficulty) == 1:
             retryAttempt = 1
-
-
         # Ask the question
-        print(question.question)
-        print("Option 1 : ", question.answerA)
-        print("Option 2 : ", question.answerA)
-        print("Option 3 : ", question.answerA)
-        print("Option 4 : ", question.answerA)
+        print(question["Question"])
+        print("\n Options Are:")
+        print("[1] : ", question["option1"])
+        print("[2] : ", question["option2"])
+        print("[3] : ", question["option3"])
+        print("[4] : ", question["option4"])
 
         # Take input from user
-        selectedAnswer = input("Type the option number and press enter")
-
+        selectedAnswer = input("Type the option number and press enter: \n")
         # Check if its correct
-        if selectedAnswer == question.correctAnswer:
+        if int(selectedAnswer) == int(question["correctAnswer"]):
             print("Correct Answer")
             # If correct, add 1 to the score
             questionnaire.currentScore += 1
 
         else:
+            print("Ah Oh!")
+            
             if retryAttempt > 0:
                 while retryAttempt > 0:
-                    selectedAnswer = input("Ahh thats wrong... Try another option...")
-                    if selectedAnswer == question.correctAnswer:
+                    selectedAnswer = input("thats wrong... Try another option...")
+                    if int(selectedAnswer) == int(question["correctAnswer"]):
                         print("There you go!!!")
                         # If correct, add 1 to the score
                         questionnaire.currentScore += 1
                     else:
-                        retryAttempt -= 1
-
-
-
-    # print("Your question is {}. The answer is {}".format(q1.question, q1.answerA))
+                        print("Thats not it! try next question.")
+                    retryAttempt -= 1
+    if questionnaire.currentScore > 10:
+        result = "Pass"
+        message = " Congratulations."
+    else:
+        result = "Fail"
+        message = "Please try again after a week."
+    print("You {} the exam {}".format(result,message))
